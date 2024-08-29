@@ -44,6 +44,10 @@
 ?>
 
 	<!-- HOME SECTION -->
+    <form id="search-form" method="GET" action="search_results.php">
+        <input type="text" id="search-query" name="query" placeholder="Search menu items..." />
+        <button type="submit">Search</button>
+    </form>
 
 	<section class="home-section" id="home">
 		<div class="container">
@@ -691,6 +695,38 @@ $(document).ready(function() {
     height: auto;
     margin-bottom: 15px;
 }
+#search-form {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    
+}
 
+#search-form input[type="text"] {
+    width: 80%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+#search-form button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ffc851;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+#search-form button:hover {
+    background-color: #0056b3;
+}
 
 </style>

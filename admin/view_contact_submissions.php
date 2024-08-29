@@ -106,7 +106,7 @@
                                 <th scope="col">Name</th>
                                 <th scope="col">Email</th>
                                 <th scope="col">Phone</th>
-                                <th scope="col">Message</th>A
+                                <th scope="col">Message</th>
                                 <th scope="col">Manage</th>
                             </tr>
                         </thead>
